@@ -230,11 +230,17 @@ button:hover {
 
   .signup-container {
     flex-direction: row-reverse;
+    align-items: center;
     padding: 20px;
   }
 
   .illustration > img {
     content: url('./assets/images/illustration-sign-up-desktop.svg');
+  }
+
+  .detail-section {
+    width: 400px;
+    padding: 0 20px;
   }
 
   #success-message {
